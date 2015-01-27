@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.cabrillo.tracker.Tracker$Preferences">
+    <property name="memory_size" type="int">350</property>
+    <property name="recent_files" type="collection" class="java.util.ArrayList">
+        <property name="item" type="string">C:\Documents and Settings\jonesrt\Desktop\CIMG1167.MOV</property>
+        <property name="item" type="string">C:\Documents and Settings\jonesrt\Desktop\CIMG1167a.trk</property>
+        <property name="item" type="string">C:\Documents and Settings\jonesrt\Desktop\CIMG1167.trk</property>
+    </property>
+</object>
