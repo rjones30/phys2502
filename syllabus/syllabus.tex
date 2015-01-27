@@ -1,0 +1,501 @@
+%% ****** Start of file template.aps ****** %
+%%
+%%
+%%   This file is part of the APS files in the REVTeX 4 distribution.
+%%   Version 4.0 of REVTeX, August 2001
+%%
+%%
+%%   Copyright (c) 2001 The American Physical Society.
+%%
+%%   See the REVTeX 4 README file for restrictions and more information.
+%%
+%
+% This is a template for producing manuscripts for use with REVTEX 4.0
+% Copy this file to another name and then work on that file.
+% That way, you always have this original template file to use.
+%
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many overlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showpacs' option to make PACS codes appear
+%  Add 'showkeys' option to make keywords appear
+\documentclass{revtex4}
+%\documentclass[aps,prl,preprint,superscriptaddress]{revtex4}
+%\documentclass[aps,prl,twocolumn,groupedaddress]{revtex4}
+\usepackage[dvipdf]{graphicx}
+%\usepackage{dcolumn}
+
+% You should use BibTeX and apsrev.bst for references
+% Choosing a journal automatically selects the correct APS
+% BibTeX style file (bst file), so only uncomment the line
+% below if necessary.
+%\bibliographystyle{apsrev}
+
+\begin{document}
+
+% Use the \preprint command to place your local institutional report
+% number in the upper righthand corner of the title page in preprint mode.
+% Multiple \preprint commands are allowed.
+% Use the 'preprintnumbers' class option to override journal defaults
+% to display numbers if necessary
+%\preprint{}
+
+%Title of paper
+\title{Phys 2502W Course Syllabus: Laboratory in Electromagnetism and Mechanics II}
+
+% repeat the \author .. \affiliation  etc. as needed
+% \email, \thanks, \homepage, \altaffiliation all apply to the current
+% author. Explanatory text should go in the []'s, actual e-mail
+% address or url should go in the {}'s for \email and \homepage.
+% Please use the appropriate macro foreach each type of information
+
+% \affiliation command applies to all authors since the last
+% \affiliation command. The \affiliation command should follow the
+% other information
+% \affiliation can be followed by \email, \homepage, \thanks as well.
+\author{Professor Richard Jones}
+%\homepage[]{Your web page}
+%\thanks{}
+%\altaffiliation{}
+\affiliation{Physics 2502, Spring Semester 2015, University of Connecticut}
+%\author{R.T. Jones}
+%\affiliation{University of Connecticut}
+
+%Collaboration name if desired (requires use of superscriptaddress
+%option in \documentclass). \noaffiliation is required (may also be
+%used with the \author command).
+%\collaboration can be followed by \email, \homepage, \thanks as well.
+%\collaboration{}
+%\noaffiliation
+
+\date{January 23, 2015}
+
+% insert suggested PACS numbers in braces on next line
+%\pacs{}
+% insert suggested keywords - APS authors don't need to do this
+%\keywords{}
+
+\setlength{\topmargin}{0in}
+
+%\maketitle must follow title, authors, abstract, \pacs, and \keywords
+\maketitle
+
+% body of paper here - Use proper section commands
+% References should be done using the \cite, \ref, and \label commands
+
+%% The normal text is displayed in two-column format, but special
+%% sections spanning both columns can be inserted within the page
+%% format so that long equations can be displayed. Use
+%% sparingly.
+%%\begin{widetext}
+%% put long equation here
+%%\end{widetext}
+%
+%% figures should be put into the text as floats.
+%% Use the graphics or graphicx packages (distributed with LaTeX2e)
+%% and the \includegraphics macro defined in those packages.
+%% See the LaTeX Graphics Companion by Michel Goosens, Sebastian Rahtz,
+%% and Frank Mittelbach for instance.
+%%
+%% Here is an example of the general form of a figure:
+%% Fill in the caption in the braces of the \caption{} command. Put the label
+%% that you will use with \ref{} command in the braces of the \label{} command.
+%% Use the figure* environment if the figure should span across the
+%% entire page. There is no need to do explicit centering.
+%
+%%\begin{turnpage}
+%% Surround figure environment with turnpage environment for landscape
+%% figure
+%% \begin{turnpage}
+%% \begin{figure}
+%% \includegraphics{}%
+%% \caption{\label{}}
+%% \end{figure}
+%% \end{turnpage}
+%
+%% tables should appear as floats within the text
+%%
+%% Here is an example of the general form of a table:
+%% Fill in the caption in the braces of the \caption{} command. Put the label
+%% that you will use with \ref{} command in the braces of the \label{} command.
+%% Insert the column specifiers (l, r, c, d, etc.) in the empty braces of the
+%% \begin{tabular}{} command.
+%% The ruledtabular enviroment adds doubled rules to table and sets a
+%% reasonable default table settings.
+%% Use the table* environment to get a full-width table in two-column
+%% Add \usepackage{longtable} and the longtable (or longtable*}
+%% environment for nicely formatted long tables. Or use the the [H]
+%% placement option to break a long table (with less control than 
+%% in longtable).
+%
+%
+%% Surround table environment with turnpage environment for landscape
+%% table
+%% \begin{turnpage}
+%% \begin{table}
+%% \caption{\label{}}
+%% \begin{ruledtabular}
+%% \begin{tabular}{}
+%% \end{tabular}
+%% \end{ruledtabular}
+%% \end{table}
+%% \end{turnpage}
+%
+%% Specify following sections are appendices. Use \appendix* if there
+%% only one appendix.
+%%\appendix
+%%\section{}
+%
+
+\section{Lecture and Lab Schedule}
+
+\begin{itemize}
+\item
+Lectures will be held in the Physics Building (PB), room 303,
+on Monday and Wednesday from 1:00-1:50 PM.
+\item
+Labs will be held in the same room immediately following the
+Wednesday lectures, and last until 5:00 on Wednesday afternoons.
+\end{itemize}
+
+\section{Content and preparation}
+
+\begin{itemize}
+\item
+PHYS 2502 is a laboratory course devoted to the study of
+mechanical and electromagnetic phenomena, with an emphasis on
+the analysis and interpretation of experimental data, and their
+dissemination in the form of written scientific articles and
+oral presentations.
+\item
+The course has a significant writing component.  A written
+report describing the methods used and results obtained is required
+for each experiment.  For two of the experiments, students must write
+an 8-page scientific article in which they present a rationale for
+the measurement, a description of the experimental setup and methods
+used, the quantitative results obtained, and their interpretation.
+Special attention must be given to experimental errors, and the
+soundness of conclusions that can be drawn from the measurement.
+\item
+Students should have already successfully completed Physics 2501, in
+addition to 1201 or 1401 or 1501 or 1601.  The second part of the
+introductory physics sequence covering electricity and magnetism would be
+helpful but is not required.  English 1010 or 1011 or 3800 are also required.
+\item
+PHYS 2501W is a laboratory course devoted to the study of mechanical and
+electromagnetic phenomena, with an emphasis on the analysis and
+interpretation of experimental data, and their dissemination in the
+form of written scientific articles and oral presentations.
+\item
+The course has a significant writing component. A written report describing
+the methods used and results obtained is required for each experiment.
+For two of the experiments, students must write an 8-10 page scientific
+article in which they present a rationale for the measurement, a description
+of the experimental methods used, the data obtained and their analysis, and
+the conclusions that can be drawn from the measurement. Contrasted with
+lower-level courses with a lab, special attention must be given to
+experimental errors, and their propagation to uncertainties on the final
+results. Students will receive instruction in scientific writing as an
+integral part of the course, as well as individual feedback from the
+instructors aimed at helping them to improve their technical writing skills.
+\item
+Students should have already successfully completed Physics 1201 or 1401 or
+1501 or 1601. The second part of the introductory physics sequence covering
+electricity and magnetism would be helpful but is not required. English 1010
+or 1011 or 3800 are also required.
+\item
+The goals for the course are that students demonstrate their ability to:
+\begin{enumerate}
+\item
+collect experimental data</b> using computer-
+controlled scientific apparatus;
+\item
+create an appropriate model</b> of an experimental
+setup and generate predictions based on sound theoretical
+principles;
+\item
+develop skills in numerical data analysis</b> using
+appropriate applications and/or programming frameworks;
+\item
+understand experimental errors</b> and how they
+propagate through the theoretical analysis;
+\item
+draw sound scientific conclusions</b> from
+experimental results.
+\item
+write up experimental results</b> in a form suitable
+for publication in a scientific journal.
+\end{enumerate}
+\end{itemize}
+
+\section{Course materials}
+
+\begin{itemize}
+\item
+{\bf Text books:} Students are encouraged to obtain a copy of either one or
+the other of the following two books on error analysis. Taylor is a more
+introductory text, with helpful examples of how data analysis techniques
+are applied in practical cases. Bevington is more advanced and will be useful
+as a reference for students interested in pursuing experimental research
+beyond this course. Both of these books are available from online vendors
+such as amazon.com.
+\begin{enumerate}
+\item
+J.R. Taylor, {\it An Introduction to Error Analysis: The Study of Uncertainties
+in Physical Measurements} (2nd ed.), University Science Books, 1997, 
+ISBN 0-935702-75-X.
+\item
+P.R. Bevington and D.K. Robinson, {\it Data Reduction and Error Analysis for
+the Physical Sciences} (3rd ed.), McGraw-Hill, 2003, ISBN 0-07-247227-8 
+(see also \url{http://www.mhhe.com/bevington}).
+\end{enumerate}
+The following books are useful references on the subject of scientific writing.
+\begin{enumerate}
+\item
+{AIP Style Manual} (4th ed.), American Institute of Physics, 1990, available
+in pdf format at \url{http://www.aip.org/pubservs/style/4thed/AIP_Style_4thed.pdf}.
+\item
+R.A. Day, {\it Scientific English: A Guide for Scientists and Other 
+Professionals}, Oryx, 1995, ISBN 0-89774-989-8.
+\end{enumerate}
+\item
+{\bf Course web site:} Online access to laboratory guides, individual student
+grade records, and various other useful reference materials related to the
+course are available on the course web site at \url{http://learn.uconn.edu}.
+Students should log in using their netid and password, and click on the link
+to PHYS 2502 under their list of classes.
+\end{itemize}
+
+\section{Assignments}
+
+\begin{itemize}
+
+\item
+{\bf In-class assignments:} In-class time is divided between two hour-long
+weekly periods with the instructor and one weekly laboratory period supervised
+by a teaching assistant. In-class time will be devoted to three major topics:
+\begin{enumerate}
+\item
+introduction and theoretical background for the experiments,
+\item
+tutorials and group exercises in data and error analysis, and
+\item
+instruction in scientific writing and peer critique.
+\end{enumerate}
+Participation in these periods will be important to your success in the course.
+
+\item
+{\bf Regular reports:} Each student must separately submit an
+individual report and abstract for each of the laboratory experiments.
+In addition to the experiments, students will also be given tutorials in
+advanced data analysis that they will work on in groups.  For the tutorials,
+the lab instructor will accept a completed project file from each student
+in place of a written report.  In all other cases, a written report is
+required from each student for each experiment.  The reports are typically
+4-6 pages, and must contain all of the following elements:
+\begin{enumerate}
+\item
+a descriptive title and the author's name;
+\item
+an abstract describing the purpose of the experiment
+framed as an hypothesis, the experimental methods used,
+a summary of the results, and a conclusion that addresses
+the hypothesis;
+\item
+an introduction describing the purpose of the experiment and the details of
+the apparatus, including at least one figure, and more where that would be
+helpful;
+\item
+a description of the theoretical model of the experiment and how the
+measurements are interpreted;
+\item
+experimental data presented in a readily understandable form such as tables
+and graphs, together with errors;
+\item
+a description of how you took the raw data and analyzed them in terms of the
+theoretical model described earlier, with an emphasis on error propagation;
+\item
+presentation of the final results and comparison with prior published results
+from other experiments, and a conclusion that addresses the hypothesis.
+\end{enumerate}
+
+The abstracts should be 150-200 words, and must contain the following elements
+summarizing the report:
+\begin{enumerate}
+\item
+a concise statement of the hypothesis to be tested or the quantity measured
+in the experiment;
+\item
+a brief description of the experimental apparatus and the theoretical model in 
+words (no equations);
+\item
+statement of the quantitative results obtained, with values, uncertainties,
+and units specified;
+\item
+conclusions that address the hypothesis.
+\end{enumerate}
+Reports with abstracts must be submitted in electronic form in pdf format 
+sing the submission tool provided on the course web site. The Teaching Assistant
+(TA) in charge of your section will explain the schedule for when these reports
+are due, and will be responsible for the grading of the regular reports.  The
+course instructor will monitor these reports and give feedback to the students
+on their titles and abstracts.
+
+\item
+{\bf Full-length articles:} Instead of in-class midterm and final
+exams, students will chose one of their regular reports from the first
+half of the semester, and another from the second half, and expand them
+into full-length scientific articles edited into a form that could be
+submitted to a scientific journal.  These reports will follow a similar
+format to the one described above for the regular reports, but must be
+more detailed and complete.  In particular, the introduction must be
+separated from the description of the experimental setup and expanded
+to include a reference to at least one scientific article, together
+with a description of how it is related to the present work.  Whereas
+regular reports will normally be only 5-6 pages long, the full-length
+articles will normally be 8-10 pages long and consist of 1500-2000
+words plus equations, figures, and tables.
+Midterm and final articles will be submitted first in draft form,
+and then in final form, after feedback has been received from the 
+instructor and changes incorporated into the report.  The drafts
+must be complete articles; <i>mere skeleton articles, or ones
+that are missing significant portions of data or analysis results
+will not be accepted as completed drafts.</i> Full-length articles
+must be submitted in the form of a pdf file through the submission
+tool provided on the huskyct web site.  The pdf file <i>must</i>
+contain as its first page a cover letter from the student, followed
+by an empty page for instructor feedback and evaluation, followed
+by the article.  A template cover letter for draft and final articles
+will be provided by the instructor.  The due dates for the
+various drafts and final article submission will be announced in
+class, and posted on huskyct.
+
+\item
+{\bf Final presentations:} Each student will prepare an oral
+presentation of approximately 10 minutes duration on the same subject
+as their final article.  These presentations will be made to 
+other members of the class at the time of the regular lab period
+during the last week of classes.  Presentations must be accompanied
+by slides in electronic form that describe the apparatus and data
+collected in graphical form, and describe the methods used to analyze
+the data and the accompanying errors.  The presentation must also
+make reference to related measurements that are published in
+scientific journals.  The presentation must end with conclusions
+that can be drawn from the experimental results.  Because of the
+group nature of the final presentations, no late work will be
+accepted for the final presentation.
+\end{itemize}
+
+\section{Grading policies}
+
+\hspace*{2cm}
+\begin{tabular}{lr}
+\multicolumn{2}{l}{scoring rubrik for each report} \\
+\hline
+Content: experimental method & 10\% \\
+Content: theory (principles, math) & 10\% \\
+Content: quality of results (data, figures) & 20\% \\
+Content: analysis (including errors) & 30\% \\
+Content: conclusions (soundness, summary) & 10\% \\
+Presentation: writing (clarity, correctness) & 20\% \\
+\hline
+\end{tabular}
+\hspace{1cm}
+\begin{tabular}{lr}
+\multicolumn{2}{l}{breakdown of final grade} \\
+\hline
+Regular reports & 35\% \\
+In-class assignments & 10\% \\
+Midterm paper & 10\% \\
+Final paper & 25\% \\
+Oral presentation & 10\% \\
+Lab and numerical skills & 10\% \\
+\hline
+\end{tabular}
+\vspace{1cm}
+
+To pass this course your aggregate score under all of the above
+categories must be above a minimum acceptable level.  The two
+full-length articles that go through a complete revision and
+editing process, considered by themselves apart from the other
+graded components of the course, must also be above a passing
+grade in order to pass this course.
+
+For students who miss a lab during the semester, one week is
+reserved for make-up close to the end of the semester.  Regular
+Lab periods take place 2:00-5:00 on Wednesdays.  Groups needing
+extended time to complete a measurement should arrange with
+the TA to gain access to the laboratory outside of these hours.
+Regular reports are normally due at the beginning of the laboratory
+period a week after the lab is performed.  Special deadlines for
+the full-length articles
+will be posted on the huskyct web site.  Work submitted after the
+deadline will suffer a 1\% per hour deduction in points, unless
+granted an exception by the instructor and/or TA for exceptional
+circumstances.  If the exceptional circumstances are known in
+advance, the student should contact the TA and/or instructor to
+obtain an adjusted deadline to make sure no points are lost.
+Students who fail to complete any of the labs or submit weekly
+reports will receive a zero for that lab, but the labs with long
+reports that substitute for midterm and final exams are mandatory.
+You cannot pass this course without completing those assignments.
+
+\section{Academic Integrity}
+In this course we aim to conduct ourselves as a community of scholars,
+recognizing that academic study is both an intellectual and ethical enterprise.
+You are encouraged to build on the ideas and texts of others; that is a vital
+part of academic life. You are also obligated to document every occasion when
+you use another's ideas, language, or syntax. You are encouraged to study
+together, discuss readings outside of class, share your drafts during peer
+review and outside of class, and go to the Writing Center with your drafts.
+In this course, those activities are well within the bounds of academic honesty.
+However, when you use another's ideas or language, whether through direct
+quotation, summary, or paraphrase, you must formally acknowledge that debt by
+signaling it with a standard form of academic citation. Even one occasion of
+academic dishonesty, large or small, on any assignment, large or small, will
+result in failure for the entire course and referral to Student Judicial
+Affairs. For University policies on academic honesty please see UConn's
+Responsibilities of Community Life: 
+\url{http://community.uconn.edu/the-student-code-preamble/}.
+Please note that ignorance of prevailing academic conventions or of
+UConn's policies never excuses a violation. You are encouraged to come see
+the instructor if you have questions about when and how to cite; you would
+also be wise to consult a writing handbook.
+
+\section{Students With Disabilities}
+Students who think that they may need accommodations because of a disability
+are encouraged to meet with their instructor privately early in the semester.
+Students should also contact the Center for Students with Disabilities as
+soon as possible to verify their eligibility for reasonable accommodations.
+For more information, please go to \url{http://www.csd.uconn.edu/}.
+
+\section{Help with Writing}
+Students are invited to visit the University Writing Center for individualized
+tutorials. The Writing Center staff includes talented and welcoming graduate
+and undergraduate students from across the humanities, social sciences, and
+sciences. They work with writers at any stage of the writing process, from
+exploring ideas to polishing final drafts. Their first priority is guiding 
+each student's revisions, so they frequently provide a sounding board for a
+writer's ideas, arguments, analytical moves, and uses of evidence. They can
+also work with you on sentence-level concerns, but please note that they will
+not proofread for you; instead, they will help you become a better editor of
+your own work. You should come with a copy of the assignment you are working 
+on, a current draft (or notes if you are not yet at the draft stage), and
+ideas about what you want out of a session. Tutorials run 45 minutes and are
+free. You can drop in or make an appointment. For hours, locations, and more
+information, please go to \url{http://writingcenter.uconn.edu}.
+
+\section{Contact information}
+\begin{itemize}
+\item
+Prof. Richard Jones, richard.t.jones@uconn.edu, office P-411, office hours
+by appointment, please email.
+\end{itemize}
+
+\end{document}
+%%
+%% ****** End of file template.aps ******
+%
+%
