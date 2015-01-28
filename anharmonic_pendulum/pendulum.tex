@@ -174,7 +174,7 @@ experiments (Foucalt's pendulum, Kater's pendulum, physical
 pendulum and coupled pendula) the amplitude is restricted to
 small angles so that the period approximately obeys the familiar relation,
 \begin{equation}
-\tau_0 = 2\pi\frac{I}{mgL}
+\tau_0 = 2\pi\left(\frac{I}{mgL}\right)^{\frac{1}{2}}
 \label{eq:omega0}
 \end{equation}
 where $I$ is the pendulum moment of interia about the pivot, $m$ is its
@@ -354,12 +354,15 @@ amplitude upon each half-swing.  One way to calculate the damping effect
 from friction in the mount is to compute the work $\Delta W_f$ done by the
 pendulum against friction during each period
 \begin{equation}
-\Delta W_f = -\mu_k m g (2r\alpha)
+\Delta W_f = -\mu_k m g (4r\alpha)
 \label{eq:workf}
 \end{equation}
 where $r$ is the distance from the contact point to the center of rotation
-in the pivot, and $2\alpha$ is the total angular distance travelled by the
-pendulum during between one complete period.  The important thing to 
+in the pivot, and $4\alpha$ is the total angular distance travelled by the
+pendulum during between one complete period. In this situation where the
+oscillations are damped, it is necessary to distinguish between the 
+instantaneous value $\alpha$ of the oscillations, which varies with time,
+and the initial oscillation amplitude $\alpha_0$. The important thing to 
 note here is not the exact value of $\Delta W$ but how it is proportional
 to the oscillation amplitude $\alpha$.  By contrast, the work done by the
 drag force in Eq.~\ref{eom:real} during one period,
